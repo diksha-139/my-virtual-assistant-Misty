@@ -1,0 +1,40 @@
+Documentation of Misty:my virtual assistant
+
+Abstract:
+it is a virtual assistant named Misty which takes voice commands from the users process them and then open the applications accordingly.
+it is used to ease our typing as well as searching work and many more.
+
+Coding:
+there is a main.py python file having all the functions inside it.
+we need to run this main.py to make Misty work.
+inside terminal we have to type:
+>> python main.py
+
+inside main.py , various modules present are listed below:
+email.mime audio
+pyaudio
+pyttsx3
+speech_recognition
+datetime
+wikipedia
+webbrowser
+os
+smtplib
+engine
+
+we have to install them using pip command:
+>>pip install speechRecognition
+>>pip install pyttsx3
+>>pip install pipwin
+>>pipwin install pyaudio
+>>pip install datetime
+>>pip install wikipedia
+>>pip install webbrowser
+>>pip install os
+>>pip install smtplib
+
+we have various functions for different different tasks like:
+def speak() function , to make misty speak 
+def takeCommand() function, to take voice command as input and convert it into string and then accordingly proccess it.
+def wishMe() function ,to wish the master according to the time span
+def main() function to perform various tasks according to input voice command.
